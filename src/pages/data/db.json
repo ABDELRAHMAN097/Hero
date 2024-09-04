@@ -1,0 +1,324 @@
+{
+  "users": [
+    {
+      "name": "Dr Hassan",
+      "username": "drhassan",
+      "password": "drh123",
+      "role": "System Owner",
+      "id": 1
+    },
+    {
+      "name": "Ahmed Rabie",
+      "username": "AhmedRabie",
+      "password": "ah456",
+      "role": "Student",
+      "id": 3,
+      "img": "../../assets/std.png",
+      "levelId": 4,
+      "department": "CS",
+      "hours": 18,
+      "gpa": 2.3,
+      "photoUrl": "assets/std.png",
+      "listOfRegCourses": []
+    },
+    {
+      "name": "Eslam Eid",
+      "username": "eslam123",
+      "password": "es123",
+      "role": "Student",
+      "id": 4,
+      "img": "../../assets/std.png",
+      "levelId": 1,
+      "department": "CS",
+      "hours": 18,
+      "gpa": 2.3,
+      "listOfRegCourses": []
+    },
+    {
+      "name": "Dr mina",
+      "username": "drmina",
+      "password": "mina369",
+      "role": "Doctor",
+      "id": 9
+    },
+    {
+      "name": "Sameh Ahmed",
+      "username": "sameh23",
+      "password": "sameh123",
+      "role": "Student",
+      "id": 10,
+      "img": "../../assets/std.png",
+      "levelId": 2,
+      "department": "General",
+      "hours": 18,
+      "gpa": 2,
+      "listOfRegCourses": []
+    },
+    {
+      "name": "Hagag Samir",
+      "username": "hagag412",
+      "password": "hag369",
+      "role": "Student",
+      "id": 11,
+      "img": "../../assets/std.png",
+      "levelId": 3,
+      "department": "Is",
+      "hours": 18,
+      "gpa": 2.9,
+      "listOfRegCourses": []
+    },
+    {
+      "name": "ENG OMER",
+      "username": "omer12",
+      "password": "omer12",
+      "role": "Doctor",
+      "id": 12
+    },
+    {
+      "name": "Eng Mahmoud",
+      "username": "engmahmoud",
+      "password": "mahmoud369",
+      "role": "Admin",
+      "id": 13
+    },
+    {
+      "name": "Eslam Eid",
+      "username": "eslameid",
+      "password": "eslam147",
+      "role": "Admin",
+      "id": 14
+    }
+  ],
+  "Courses": [
+    {
+      "id": 1,
+      "courseName": "Programming Language 1",
+      "courseHours": "3",
+      "courseLevel": "1",
+      "courseCode": "Th121",
+      "status": "Active",
+      "courseDepartment": "CS",
+      "PreRequisteNumber1": "Null",
+      "PreRequisteNumber2": "Null",
+      "PreRequisteNumber3": "Null"
+    },
+    {
+      "id": 2,
+      "courseName": "Programming Language 2",
+      "courseHours": "3",
+      "courseLevel": "1",
+      "courseCode": "Th121",
+      "status": "Active",
+      "courseDepartment": "CS",
+      "PreRequisteNumber1": "Programming Language 1",
+      "PreRequisteNumber2": "Null",
+      "PreRequisteNumber3": "Null"
+    },
+    {
+      "id": 3,
+      "courseName": "Artificial Intelligence",
+      "courseHours": "3",
+      "courseLevel": "1",
+      "courseCode": "Th121",
+      "status": "Not Active",
+      "courseDepartment": "CS",
+      "PreRequisteNumber1": "Math 1",
+      "PreRequisteNumber2": "Math 2",
+      "PreRequisteNumber3": "Math 3"
+    },
+    {
+      "id": 4,
+      "courseName": "Theary of compution",
+      "courseHours": "3",
+      "courseLevel": "4",
+      "courseCode": "Th121",
+      "status": "Active",
+      "courseDepartment": "CS",
+      "PreRequisteNumber1": "Automata",
+      "PreRequisteNumber2": "Null",
+      "PreRequisteNumber3": "Null"
+    },
+    {
+      "courseName": "is",
+      "courseCode": "is24",
+      "courseHours": 3,
+      "courseLevel": 2,
+      "status": "Not Active",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "id": 5
+    },
+    {
+      "courseName": "Machine Learning",
+      "courseCode": "ML123",
+      "courseHours": "3",
+      "courseLevel": "4",
+      "status": "Active",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Math3",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "id": 6
+    },
+    {
+      "courseName": "Software Engineering",
+      "courseCode": "SWE56",
+      "courseHours": "3",
+      "courseLevel": "3",
+      "status": "Not Active",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "System Analysis",
+      "coursePreRequisteNum2": "Software Development",
+      "coursePreRequisteNum3": "Null",
+      "id": 7
+    },
+    {
+      "courseName": "Physics 1",
+      "courseCode": "PH101",
+      "courseHours": "3",
+      "courseLevel": "1",
+      "courseDepartment": "General",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 8
+    },
+    {
+      "courseName": "Quality Assurance",
+      "courseCode": "IS441",
+      "courseHours": "3",
+      "courseLevel": "4",
+      "courseDepartment": "IS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 9
+    },
+    {
+      "courseName": "Data Structure",
+      "courseCode": "CS211",
+      "courseHours": "3",
+      "courseLevel": "2",
+      "courseDepartment": "General",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 10
+    },
+    {
+      "courseName": "File Organization",
+      "courseCode": "IS211",
+      "courseHours": "3",
+      "courseLevel": "2",
+      "courseDepartment": "General",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 11
+    },
+    {
+      "courseName": "Project Managment",
+      "courseCode": "IS221",
+      "courseHours": "2",
+      "courseLevel": "2",
+      "courseDepartment": "General",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 12
+    },
+    {
+      "courseName": "Data Mining",
+      "courseCode": "IS314",
+      "courseHours": "3",
+      "courseLevel": "3",
+      "courseDepartment": "IS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 13
+    },
+    {
+      "courseName": "Simulation",
+      "courseCode": "CS302",
+      "courseHours": "3",
+      "courseLevel": "3",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 14
+    },
+    {
+      "courseName": "Computer Graphics",
+      "courseCode": "IT381",
+      "courseHours": "3",
+      "courseLevel": "3",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 15
+    },
+    {
+      "courseName": "Computer Security",
+      "courseCode": "CS471",
+      "courseHours": "3",
+      "courseLevel": "4",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 16
+    },
+    {
+      "courseName": "Al",
+      "courseCode": "ai14",
+      "courseHours": "3",
+      "courseLevel": "4",
+      "courseDepartment": "CS",
+      "coursePreRequisteNum1": "Null",
+      "coursePreRequisteNum2": "Null",
+      "coursePreRequisteNum3": "Null",
+      "status": "Active",
+      "id": 17
+    }
+  ],
+  "ActiveCourses": [
+    {
+      "courses": [
+        null
+      ],
+      "student_id": 3,
+      "id": 1
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "departmentName": "CS",
+      "departmentCode": "CS12",
+      "levelId": 3,
+      "departmentGpa": "2.5"
+    },
+    {
+      "id": 2,
+      "departmentName": "IS",
+      "departmentCode": "IS45",
+      "levelId": 3,
+      "departmentGpa": 2.1
+    }
+  ],
+  "coursesTest": []
+}
